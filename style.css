@@ -1,0 +1,240 @@
+
+.navbar-brand{
+    font-size: 16px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+}
+nav.navbar.navbar-expand-lg {
+    margin-top: 15px;
+}
+
+#navbarNavDropdown {
+    margin-left: 300px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(11, 91, 184);
+}
+
+
+.nav-item{
+    margin-left: 30px;
+    font-size: 11px;
+    font-weight: 800;
+    font-family: system-ui;
+    text-transform: capitalize;
+}
+.nav-item1{
+    font-size: 11px;
+    font-weight: 800;
+    font-family: system-ui;
+    background-color: rgb(11, 91, 184);
+    border-radius: 6px;
+    border: none;
+    padding: 10px 14px;
+    margin-left: 30px;
+}
+.nav-link1{
+    color: bisque;
+    text-decoration: none;
+}
+
+.nav-item :hover{
+    color: rgb(11, 91, 184);
+}
+.col-md-6.cls2 img {
+    width: 100% !important;
+}
+.GIT{
+    font-size: 13px;
+    font-weight: 800;
+    font-family: system-ui;
+    background-color: rgb(11, 91, 184);
+    border-radius: 30px;
+    border: none;
+    padding: 12px 25px;
+    margin-left: 30px;
+}
+.col-md-6.cls2 {
+    margin-top: 80px;
+}
+.col-md-6.cls1 {
+    margin-top: 130px;
+}
+p.IH {
+    letter-spacing: 5px;
+    font-family: monospace;
+    font-size: 15px;
+    color: rgb(11, 91, 184);
+    font-weight: 900;
+    margin-left: 30px;
+}
+p.FFA {
+    color: darkgrey;
+    font-family: system-ui;
+    font-size: 14px;
+    margin-right: 270px;
+    margin-left: 30px;
+}
+h1{
+margin-left: 30px;
+font-family: ui-monospace;
+font-weight: 900;
+line-height: 70px;
+font-size: 60px;
+}
+a {
+    text-decoration: none;
+    color: bisque;
+}
+h2 {
+    margin-left: 100px;
+    font-size: 22px;
+    font-family: ui-monospace;
+    font-weight: 600;
+    margin-top: 150px;
+}
+p {
+    margin-left: 100px;
+    font-family: ui-monospace;
+    color: darkgrey;
+    font-size: 14px;
+    word-spacing: 2px
+}
+form.search-bar {
+    width: 100%;
+    max-width: 580px;
+    background-color: rgb(11, 91, 184);
+    padding: 41px 54px 95px 38px;
+    border-radius: 45px 1px;
+    align-items: center;
+    display: flex;
+    outline: none;
+}
+button.submit {
+    background-color: #0eb665;
+    padding: 13px 45px 12px 45px;
+    border: none;
+    font-size: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    outline: none;
+}
+input[type="text"] {
+    padding: 13px 140px 10px 30px;
+    font-size: 12px;
+    outline: none;
+    border: unset;
+}
+.col-md-6.cls4 {
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+.form-control {
+    display: block;
+    padding: 13px;
+    font-size: 10px;
+    font-weight: 400;
+    color: rgb(11, 91, 184);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: none;
+    font-family:ui-monospace;
+    border-radius: 0px;
+    font-weight: 800;
+    border: unset;
+
+}
+.form-control:focus {
+    color: rgb(11, 91, 184);
+    
+    border-color: rgb(11, 91, 184);
+    outline: 0px;
+    box-shadow: unset;
+
+}
+input[type="text"] {
+    width: 502px;
+    padding: 11.5px 120px 11.5px 10px !important;
+}
+select#exampleFormControlSelect1 {
+    border-left: 1px solid;
+}
+i.fa-solid.fa-caret-down {
+    position: absolute;
+    right: 256px;
+    font-size: 11px;
+}
+@media only screen and (max-width: 600px) and (min-width: 320px)  {
+    p.FFA {
+        margin: unset;
+    }
+    button.navbar-toggler {
+        margin-right: -140px;
+    }
+    a.navbar-brand {
+        margin-left: 35px;
+        font-size: 20px;
+        margin-top: 8px;
+    }
+    p.FFA {
+        margin-left: 37px;
+        margin-top: 25px;
+        font-size: 18px;
+    }   
+    button.GIT {
+        margin-top: 35px;
+        font-size: 17px;
+        padding: 15px 35px 15px 35px;
+    }
+    img {
+        width: 443px !important;
+    }
+    h2 {
+        margin-left: 20px;
+    }
+    p {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    h2 {
+        margin-left: 20px;
+        font-size: 28px;
+        margin-right: -63px;
+    }
+    form.search-bar {
+        display: block
+    }
+    form.search-bar {
+        padding: 34px 21px 66px 23px;
+        margin: unset;
+        width: 435px;
+        display: flex;
+    }
+    select#exampleFormControlSelect1 {
+        width: 65px;
+        padding-left: 10px;
+    }
+    input[type="text"] {
+        width: 203px;
+        padding: 11.5px 40px 11.5px 12px !important;
+    }
+    i.fa-solid.fa-caret-down {
+        top: 584%;
+        position: absolute;
+        right: 30px;
+    }
+    img {
+        margin-left: 68px;
+    }
+    ::before {
+        position: absolute;
+        top: 323px;
+    }
+        
+}
